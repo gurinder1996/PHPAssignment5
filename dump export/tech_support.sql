@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 17, 2026 at 10:21 PM
+-- Generation Time: Feb 23, 2026 at 11:59 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -109,8 +109,8 @@ CREATE TABLE `incidents` (
 --
 
 INSERT INTO `incidents` (`incidentID`, `customerID`, `productCode`, `techID`, `dateOpened`, `dateClosed`, `title`, `description`) VALUES
-(1, 1, 'BB10', 1, '2026-02-02 19:58:38', NULL, 'Cannot save league', 'Error appears when saving.'),
-(2, 2, 'SC15', NULL, '2026-02-02 19:58:38', NULL, 'Install issue', 'Setup fails at step 2.'),
+(1, 1, 'BB10', 1, '2026-02-02 19:58:38', '2026-02-23 00:00:00', 'Cannot save league', 'Error appears when saving it.'),
+(2, 2, 'SC15', 1, '2026-02-02 19:58:38', NULL, 'Install issue', 'Setup fails at step 2.'),
 (3, 1, 'BB10', NULL, '2026-02-09 18:58:27', NULL, 'broken', 'bAT broke');
 
 -- --------------------------------------------------------
